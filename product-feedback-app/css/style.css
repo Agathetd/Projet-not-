@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
     .container--encart--suggs {
         display: flex;
         flex-direction: row;
@@ -206,6 +206,7 @@
         background-color: #8596e9;
         color: #4661e6;
         border-radius: 6%;
+        margin-bottom: 60px;
     }
 
     .AddTag{
@@ -258,7 +259,7 @@
     }
 
     .main{
-        width: 1024px;
+        width: 800px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -266,13 +267,36 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
+
+    .columnleft{
+        display: flex;
+        flex-direction: row;
+        margin-right: 6%;
+        margin-left: 6%;
+    }
+    .columnRight{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        margin-left: 6%;
+        margin-right: 6%;
+
+    }
+
+    .main{
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
 
     .container--encart--suggs {
         display: flex;
         flex-direction: row;
         flex-flow: row wrap;
-        width: 100%;
+        width: 33.3%;
     }
     
     body{
@@ -286,6 +310,7 @@
 
 
     .content--encart{
+        width: 100%;
         color: white;
         margin-left: 10%;
     }
@@ -314,8 +339,10 @@
 
 
     .buttons--type{
+        margin-left: 16px;
+        margin-right: 16px;
         padding: 2%;
-        width: 100%;
+        width: 33.3%;
         flex-wrap: wrap;
         background-color: white;
         margin-bottom: 10%;
@@ -366,7 +393,7 @@
 
 
     .roadmap{
-        width: 100%;
+        width: 33.3%;
     }
 
     .roadmap--header{
@@ -389,6 +416,39 @@
 
     .roadmap--header--title{
         margin-left: 10%;
+    }
+
+    .saumon-puce::before {
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        margin-right: 15px;
+        border: 1px solid #f49f85;
+        background-color: #f49f85;
+    }
+    
+    .purple-puce::before {
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        margin-right: 15px;
+        border: 1px solid #ad1fea;
+        background-color: #ad1fea;
+    }
+    
+    .blue-puce::before {
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        margin-right: 15px;
+        border: 1px solid #62bcfa;
+        background-color: #62bcfa;
     }
 
 
