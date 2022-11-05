@@ -20,9 +20,35 @@
 
     }
 
+    .rowtop {
+        width: 100%;
+    }
+
+    .rowmid {
+        width: 100%;
+    }
+
+    .profil {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+
+    .commentary{
+        display: flex;
+        flex-direction: row;
+        margin-left: 85px;
+        margin-bottom: 30px;
+    }
+
+    .trait--horizontal{
+        border-top: 0.5px solid rgb(179, 179, 179);
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
     .header--textlink--back {
-
-
+        font-weight: lighter;
     }
 
     .header--button--feedback {
@@ -42,7 +68,18 @@
         width: 100%;
         background-color: white;
         border-radius: 6%;
-        height: 120px;
+        height: 140px;
+        margin-bottom: 3%;
+    }
+
+    .suggs--panel--comment{
+        margin-top: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        background-color: white;
+        border-radius: 6%;
         margin-bottom: 3%;
     }
 
@@ -50,8 +87,8 @@
         background-color: #f2f4ff;
         color: #4661e6;
         border-radius: 12px;
-        width: 80px;
-        height: 40px;
+        width: 75px;
+        height: 30px;
     }
 
     .suggs--panel--upvotes{
@@ -70,14 +107,63 @@
 
     }
 
-    .suggs--panel--texts{
+    .suggs--panel--img{
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .profil--text{
+        margin-left: 15px;
+    }
+
+    .nomprofil{
+        font-weight: 700;
+    }
+
+    .idprofil{
+        font-weight: lighter;
+    }
+
+    .suggs--panel--reply{
+        color: #4661e6;
+        text-align: right;
+    }
+
+    .suggs--paneltop--texts{
         width: 100%;
         margin-left: 3%;
-        justify-content: space-around;
+    }
+
+    .comment--text{
+        margin-left: 85px;
     }
 
     .AddTag{
         font-weight: bold;
+    }
+
+    .suggs--panel--textcomment{
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    .suggs--panel--textarea{
+        resize: none;
+        width: 500px;
+        height: 80px;
+        border-radius: 10px;
+    }
+
+    .suggs--panel--button{
+        border-radius: 12px;
+        width: 105px;
+        height: 45px;
+        font-weight: bold;
+        color: white;
+        background-color: #ad1fea;
+        margin-left: 10px;
     }
 
     .arrowUp{
