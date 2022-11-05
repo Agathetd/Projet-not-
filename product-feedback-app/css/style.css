@@ -203,10 +203,10 @@
     }
 
     .suggs--panel--tag{
-        background-color: #8596e9;
+        background-color: #acb8f3;
         color: #4661e6;
-        border-radius: 6%;
-        margin-bottom: 60px;
+        border-radius: 12px;
+        height: 25px;
     }
 
     .AddTag{
@@ -243,6 +243,7 @@
     .suggs--panel--texts{
         width: 100%;
         margin-left: 3%;
+        justify-content: space-around;
     }
 
     .columnleft{
@@ -259,7 +260,7 @@
     }
 
     .main{
-        width: 800px;
+        width: 1024px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
