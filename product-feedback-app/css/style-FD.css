@@ -140,6 +140,7 @@
 
     .profil--text{
         margin-left: 15px;
+        flex-grow: 1;
     }
 
     .nomprofil{
@@ -153,6 +154,8 @@
     .suggs--panel--reply{
         color: #4661e6;
         text-align: right;
+        margin-right: 30px;
+        text-decoration: none;
     }
 
     .suggs--paneltop--texts{
@@ -405,6 +408,7 @@
 
     .profil--text{
         margin-left: 15px;
+        flex-grow: 3;
     }
 
     .nomprofil{
@@ -675,6 +679,7 @@
 
     .profil--text{
         margin-left: 15px;
+        flex-grow: 1;
     }
 
     .nomprofil{
