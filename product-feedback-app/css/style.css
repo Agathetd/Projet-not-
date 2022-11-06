@@ -54,6 +54,7 @@
         margin: 2%;
         color: #4661e6;
         text-align: center;
+        border: none;
     }
     .btn-ui{
         background-color: #f2f4ff;
@@ -61,6 +62,7 @@
         margin: 2%;
         color: #4661e6;
         text-align: center;
+        border: none;
     }
     .btn-ux{
         background-color: #f2f4ff;
@@ -68,6 +70,7 @@
         margin: 2%;
         color: #4661e6;
         text-align: center;
+        border: none;
     }
     .btn-Enhancement{
         background-color: #f2f4ff;
@@ -75,6 +78,7 @@
         margin: 2%;
         color: #4661e6;
         text-align: center;
+        border: none;
     }
     .btn-Bug{
         background-color: #f2f4ff;
@@ -82,6 +86,7 @@
         margin: 2%;
         color: #4661e6;
         text-align: center;
+        border: none;
     }
     .btn-Feature{
         background-color: #f2f4ff;
@@ -89,6 +94,7 @@
         margin: 2%;
         color: #4661e6;
         text-align: center;
+        border: none;
     }
 
     .roadmap{
@@ -182,6 +188,7 @@
         background-color: #ad1fea;
         border-radius: 6px;
         color: white;
+        border: none;
     }
 
     .suggs--panels--group{
@@ -207,6 +214,7 @@
         color: #4661e6;
         border-radius: 12px;
         height: 25px;
+        border: none;
     }
 
     .AddTag{
@@ -355,6 +363,7 @@
         margin: 2%;
         color: #4661e6;
         text-align: center;
+        border: none;
     }
     .btn-ui{
         background-color: #f2f4ff;
@@ -362,6 +371,7 @@
         margin: 2%;
         color: #4661e6;
         text-align: center;
+        border: none;
     }
     .btn-ux{
         background-color: #f2f4ff;
@@ -369,6 +379,7 @@
         margin: 2%;
         color: #4661e6;
         text-align: center;
+        border: none;
     }
     .btn-Enhancement{
         background-color: #f2f4ff;
@@ -376,6 +387,7 @@
         margin: 2%;
         color: #4661e6;
         text-align: center;
+        border: none;
     }
     .btn-Bug{
         background-color: #f2f4ff;
@@ -383,6 +395,7 @@
         margin: 2%;
         color: #4661e6;
         text-align: center;
+        border: none;
     }
     .btn-Feature{
         background-color: #f2f4ff;
@@ -390,6 +403,7 @@
         margin: 2%;
         color: #4661e6;
         text-align: center;
+        border: none;
     }
 
 
@@ -516,6 +530,7 @@
         background-color: #8596e9;
         color: #4661e6;
         border-radius: 6%;
+        border: none;
     }
 
     .AddTag{
@@ -558,6 +573,7 @@
         background-color: #ad1fea;
         border-radius: 6px;
         color: white;
+        border: none;
     }
 
 }

@@ -70,6 +70,7 @@
         height: 45px;
         border-radius: 12px;
         font-weight: bold;
+        border: none;
     }
 
     .suggs--panel{
@@ -111,6 +112,7 @@
         border-radius: 12px;
         width: 75px;
         height: 30px;
+        border: none;
     }
 
     .suggs--panel--upvotes{
@@ -198,6 +200,8 @@
         color: white;
         background-color: #ad1fea;
         margin-left: 20px;
+        border: none;
+
     }
 
     .arrowUp{
@@ -255,6 +259,7 @@
         color: white;
         background-color: #ad1fea;
         margin-right: 20px;   
+        border: none;
     }
 
 }
@@ -372,6 +377,7 @@
         border-radius: 12px;
         width: 75px;
         height: 30px;
+        border: none;
     }
 
     .suggs--panel--upvotes{
@@ -412,6 +418,7 @@
     .suggs--panel--reply{
         color: #4661e6;
         text-align: right;
+        border: none;
     }
 
     .suggs--paneltop--texts{
@@ -459,6 +466,7 @@
         color: white;
         background-color: #ad1fea;
         margin-left: 20px;
+        border: none;
     }
 
     .arrowUp{
@@ -515,7 +523,8 @@
         font-weight: bold;
         color: white;
         background-color: #ad1fea;
-        margin-right: 20px;   
+        margin-right: 20px;  
+        border: none; 
     }
 
 
@@ -638,6 +647,7 @@
         border-radius: 12px;
         width: 75px;
         height: 30px;
+        border: none;
     }
 
     .suggs--panel--upvotes{
@@ -782,6 +792,7 @@
         color: white;
         background-color: #ad1fea;
         margin-right: 20px;   
+        border: none;
     }
 
 
