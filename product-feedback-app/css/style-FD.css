@@ -256,4 +256,537 @@
         background-color: #ad1fea;
         margin-right: 20px;   
     }
+
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body{
+        background-color: #f7f8fd;
+        font-family: 'Jost', sans-serif;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .rowtop {
+        width: 100%;
+    }
+
+    .rowmid {
+        width: 100%;
+    }
+
+    .profil {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+
+    .commentary{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    .responses{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    .trait--horizontal{
+        border-top: 0.5px solid rgb(179, 179, 179);
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .trait--vertical{
+        float: left;
+        height: 320px;
+        border-left: 0.5px solid rgb(179, 179, 179);
+        margin-left: 42px;
+    }
+
+    .header--textlink--back {
+        font-weight: lighter;
+    }
+
+    .header--button--feedback {
+        background-color: #4661e6;
+        color: white;
+        width: 140px;
+        height: 45px;
+        border-radius: 12px;
+        font-weight: bold;
+    }
+
+    .suggs--panel{
+        margin-top: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        background-color: white;
+        border-radius: 12px;
+        height: 140px;
+        margin-bottom: 3%;
+    }
+
+    .suggs--panel--comment{
+        margin-top: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        background-color: white;
+        border-radius: 12px;
+        margin-bottom: 3%;
+    }
+
+    .suggs--panel--end{
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        background-color: white;
+        border-radius: 12px;
+        margin-bottom: 3%;
+    }
+
+    .suggs--panel--tag{
+        background-color: #f2f4ff;
+        color: #4661e6;
+        border-radius: 12px;
+        width: 75px;
+        height: 30px;
+    }
+
+    .suggs--panel--upvotes{
+        display: flex;
+        flex-direction: column;
+        /* margin: 4%; */
+        margin-left: 4%;
+        margin-top: 4%;
+        background-color: #f2f4ff;
+        border-radius: 8px;
+        padding-top: 10px;
+        padding: 5px;
+        width: 35px;
+        height: 30%;
+        order: -1;
+
+    }
+
+    .suggs--panel--img{
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .profil--text{
+        margin-left: 15px;
+    }
+
+    .nomprofil{
+        font-weight: 700;
+    }
+
+    .idprofil{
+        font-weight: lighter;
+    }
+
+    .suggs--panel--reply{
+        color: #4661e6;
+        text-align: right;
+    }
+
+    .suggs--paneltop--texts{
+        width: 100%;
+        margin-left: 3%;
+    }
+
+    .AddTag{
+        font-weight: bold;
+    }
+
+    .AddComment{
+        font-weight: bold;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .suggs--panel--textcomment{
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    .suggs--panel--textarea{
+        resize: none;
+        width: 500px;
+        height: 80px;
+        border-radius: 10px;
+        margin-left: 85px;
+    }
+
+    .suggs--panel--textarea--end{
+        resize: none;
+        height: 80px;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .suggs--panel--button{
+        border-radius: 12px;
+        width: 105px;
+        height: 45px;
+        font-weight: bold;
+        color: white;
+        background-color: #ad1fea;
+        margin-left: 20px;
+    }
+
+    .arrowUp{
+        width: 10px;
+        height: 10px;
+        margin: auto;
+        order: -1;
+    }
+
+    .upvotes{
+        margin: auto;
+    }
+
+    .comment--text{
+        margin-left: 85px;
+    }
+
+    .comment--rep{
+        color: #ad1fea;
+        font-weight: 700;
+
+    }
+
+    .comment {
+        overflow: hidden;
+    }
+
+    .comment--para{
+        margin-left: 85px;
+    }
+
+    .commentary--end{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .commentary--end--buttoncleft{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .chleft{
+        font-weight: lighter;
+    }
+
+    .suggs--panel--button--end{
+        border-radius: 12px;
+        width: 120px;
+        height: 45px;
+        font-weight: bold;
+        color: white;
+        background-color: #ad1fea;
+        margin-right: 20px;   
+    }
+
+
+    .commentary{
+        visibility: hidden;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .main {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body{
+        background-color: #f7f8fd;
+        font-family: 'Jost', sans-serif;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .rowtop {
+        width: 100%;
+    }
+
+    .rowmid {
+        width: 100%;
+    }
+
+    .profil {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+
+    .commentary{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    .responses{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    .trait--horizontal{
+        border-top: 0.5px solid rgb(179, 179, 179);
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .trait--vertical{
+        float: left;
+        height: 320px;
+        border-left: 0.5px solid rgb(179, 179, 179);
+        margin-left: 42px;
+    }
+
+    .header--textlink--back {
+        font-weight: lighter;
+    }
+
+    .header--button--feedback {
+        background-color: #4661e6;
+        color: white;
+        width: 140px;
+        height: 45px;
+        border-radius: 12px;
+        font-weight: bold;
+    }
+
+    .suggs--panel{
+        margin-top: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        background-color: white;
+        border-radius: 12px;
+        height: 140px;
+        margin-bottom: 3%;
+    }
+
+    .suggs--panel--comment{
+        margin-top: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        background-color: white;
+        border-radius: 12px;
+        margin-bottom: 3%;
+    }
+
+    .suggs--panel--end{
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        background-color: white;
+        border-radius: 12px;
+        margin-bottom: 3%;
+    }
+
+    .suggs--panel--tag{
+        background-color: #f2f4ff;
+        color: #4661e6;
+        border-radius: 12px;
+        width: 75px;
+        height: 30px;
+    }
+
+    .suggs--panel--upvotes{
+        display: flex;
+        flex-direction: column;
+        /* margin: 4%; */
+        margin-left: 4%;
+        margin-top: 4%;
+        background-color: #f2f4ff;
+        border-radius: 8px;
+        padding-top: 10px;
+        padding: 5px;
+        width: 35px;
+        height: 30%;
+        order: -1;
+
+    }
+
+    .suggs--panel--img{
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .profil--text{
+        margin-left: 15px;
+    }
+
+    .nomprofil{
+        font-weight: 700;
+    }
+
+    .idprofil{
+        font-weight: lighter;
+    }
+
+    .suggs--panel--reply{
+        color: #4661e6;
+        text-align: right;
+    }
+
+    .suggs--paneltop--texts{
+        width: 100%;
+        margin-left: 3%;
+    }
+
+    .AddTag{
+        font-weight: bold;
+    }
+
+    .AddComment{
+        font-weight: bold;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .suggs--panel--textcomment{
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    .suggs--panel--textarea{
+        resize: none;
+        width: 500px;
+        height: 80px;
+        border-radius: 10px;
+        margin-left: 85px;
+    }
+
+    .suggs--panel--textarea--end{
+        resize: none;
+        height: 80px;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .suggs--panel--button{
+        border-radius: 12px;
+        width: 105px;
+        height: 45px;
+        font-weight: bold;
+        color: white;
+        background-color: #ad1fea;
+        margin-left: 20px;
+    }
+
+    .arrowUp{
+        width: 10px;
+        height: 10px;
+        margin: auto;
+        order: -1;
+    }
+
+    .upvotes{
+        margin: auto;
+    }
+
+    .comment--text{
+        margin-left: 85px;
+    }
+
+    .comment--rep{
+        color: #ad1fea;
+        font-weight: 700;
+
+    }
+
+    .comment {
+        overflow: hidden;
+    }
+
+    .comment--para{
+        margin-left: 85px;
+    }
+
+    .commentary--end{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .commentary--end--buttoncleft{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .chleft{
+        font-weight: lighter;
+    }
+
+    .suggs--panel--button--end{
+        border-radius: 12px;
+        width: 120px;
+        height: 45px;
+        font-weight: bold;
+        color: white;
+        background-color: #ad1fea;
+        margin-right: 20px;   
+    }
+
+
+    .commentary{
+        visibility: hidden;
+    }
+    
 }
